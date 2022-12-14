@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/grecosamuel/ficostation/static/css/main.073c9b0a.css",
-    "main.js": "/grecosamuel/ficostation/static/js/main.ef865b88.js",
+    "main.js": "/grecosamuel/ficostation/static/js/main.de278bb6.js",
     "static/js/787.f66bef52.chunk.js": "/grecosamuel/ficostation/static/js/787.f66bef52.chunk.js",
     "static/media/logo.svg": "/grecosamuel/ficostation/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/grecosamuel/ficostation/index.html",
     "main.073c9b0a.css.map": "/grecosamuel/ficostation/static/css/main.073c9b0a.css.map",
-    "main.ef865b88.js.map": "/grecosamuel/ficostation/static/js/main.ef865b88.js.map",
+    "main.de278bb6.js.map": "/grecosamuel/ficostation/static/js/main.de278bb6.js.map",
     "787.f66bef52.chunk.js.map": "/grecosamuel/ficostation/static/js/787.f66bef52.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.ef865b88.js"
+    "static/js/main.de278bb6.js"
   ]
 }
