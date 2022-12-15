@@ -29,7 +29,7 @@ export default function VideoIntro(){
 return(
     <>
     <video id="videoIntro" className="videoIntro" ref={videoRef} onPlay={handlePlay} onEnded={handleEnd}>
-        <source src="/FicoIntroClip.mp4" type="video/mp4"/>
+        <source src="/ficostation/FicoIntroClip.mp4" type="video/mp4"/>
     </video>
     <Button className="skipButton" onClick={e => { swiper.slideNext(); }} style={{
         position: 'absolute',
