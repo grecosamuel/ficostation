@@ -17,7 +17,7 @@ export default function Home(){
     }
     return(
         <video autoPlay controls className="videoIntro" ref={videoRef} onPlay={handlePlay}>
-            <source src="/ficostation/ficostationIntro_QcZSSifZ.mp4" type="video/mp4"/>
+            <source src="/ficostation/ficostationIntro.mp4" type="video/mp4"/>
         </video>
     )
 };
