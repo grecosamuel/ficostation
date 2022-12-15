@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/ficostation/static/css/main.0e7197ba.css",
-    "main.js": "/ficostation/static/js/main.143f2e70.js",
+    "main.css": "/ficostation/static/css/main.83964571.css",
+    "main.js": "/ficostation/static/js/main.6903ac8f.js",
+    "static/media/Bright Young Things 2.ttf": "/ficostation/static/media/Bright Young Things 2.e3de1f76ccaf51f933b0.ttf",
     "index.html": "/ficostation/index.html",
-    "main.0e7197ba.css.map": "/ficostation/static/css/main.0e7197ba.css.map",
-    "main.143f2e70.js.map": "/ficostation/static/js/main.143f2e70.js.map"
+    "main.83964571.css.map": "/ficostation/static/css/main.83964571.css.map",
+    "main.6903ac8f.js.map": "/ficostation/static/js/main.6903ac8f.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e7197ba.css",
-    "static/js/main.143f2e70.js"
+    "static/css/main.83964571.css",
+    "static/js/main.6903ac8f.js"
   ]
 }
