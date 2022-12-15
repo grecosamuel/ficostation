@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'Bright Young';
+  src: url('./font/Bright\ Young\ Things\ 2.ttf');
+}
 body {
   width: 100vw;
   height: 100vh;
