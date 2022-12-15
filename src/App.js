@@ -1,10 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "./components/Home";
+import React from "react";
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+]);
+
 
 function App() {
   return (
     <div className="App">
-     <h1>Hello world</h1>
+     <React.StrictMode>
+      <RouterProvider router={router} />
+    </React.StrictMode>
     </div>
   );
 }
