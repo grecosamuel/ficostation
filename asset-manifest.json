@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ficostation/static/css/main.e6c13ad2.css",
-    "main.js": "/ficostation/static/js/main.79653079.js",
+    "main.js": "/ficostation/static/js/main.16e8ee8f.js",
     "index.html": "/ficostation/index.html",
     "main.e6c13ad2.css.map": "/ficostation/static/css/main.e6c13ad2.css.map",
-    "main.79653079.js.map": "/ficostation/static/js/main.79653079.js.map"
+    "main.16e8ee8f.js.map": "/ficostation/static/js/main.16e8ee8f.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.79653079.js"
+    "static/js/main.16e8ee8f.js"
   ]
 }
