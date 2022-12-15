@@ -1,6 +1,8 @@
 import { Grid } from '@mui/material';
+import { EffectCards } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import CardsLink from '../CardsLink';
+import 'swiper/css/effect-cards';
 export default function Slide3(){
     return(
         <Grid container spacing={2} style={{
@@ -17,34 +19,21 @@ export default function Slide3(){
             <Grid item xs={12}>
                 
                 <Swiper
-                style={{
-                    height: '75%'
-                }}
+                modules={[EffectCards]}
+                effect='cards'
                 slidesPerView={1}
                 >
-                    <SwiperSlide style={{
-                        display: 'flex',
-                        justifyContent: 'center',
-                        height: '100%'
-                    }}>
+                    <SwiperSlide>
                         <CardsLink
                         title="SALVA NUMERO IN RUBRICA"
                         actionText="Chiama"
                         link="tel:+393664036947"/>
                     </SwiperSlide>
-                    <SwiperSlide style={{
-                        display: 'flex',
-                        justifyContent: 'center',
-                        height: '100%'
-                    }}>
+                    <SwiperSlide>
                         <CardsLink
                         title="ESPLORA LA NOSTRA DRINK LIST" actionText="Drink List" link="tel:+393664036947"/>
                     </SwiperSlide>
-                    <SwiperSlide style={{
-                        display: 'flex',
-                        justifyContent: 'center',
-                        height: '100%'
-                    }}>
+                    <SwiperSlide>
                         <CardsLink title="Prenota ora!" actionText="Chiama" link="tel:+393664036947"/>
                     </SwiperSlide>
                 </Swiper>
