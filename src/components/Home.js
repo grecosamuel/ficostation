@@ -1,23 +1,39 @@
 import './Home.css';
-import { useRef } from 'react';
-export default function Home(){
-    const videoRef = useRef(null);
+// Import Swiper React components
+import { Swiper, SwiperSlide, useSwiper } from 'swiper/react';
+// Import Swiper styles
+import 'swiper/css';
+import StartButton from './StartButton';
+import VideoIntro from './VideoIntro';
+import Slide3 from './Slide3/Slide3';
 
-    const handlePlay = () => {
-        const elem = videoRef.current;
-        if(elem){ //checking if ref was initiated
-            if (elem.requestFullscreen) {
-              elem.requestFullscreen();
-            } else if (elem.webkitRequestFullscreen) { /* Safari */
-              elem.webkitRequestFullscreen();
-            } else if (elem.msRequestFullscreen) { /* IE11 */
-              elem.msRequestFullscreen();
-            }
-          }
-    }
+export default function Home(){
+    const swiper = useSwiper();
     return(
-        <video autoPlay controls muted className="videoIntro" ref={videoRef} onPlay={handlePlay}>
-            <source src="/ficostationIntro.mp4" type="video/mp4"/>
-        </video>
-    )
+        <Swiper
+        style={{
+            backgroundColor: '#000'
+        }}
+        allowTouchMove={false}
+        slidesPerView={1}>
+            <SwiperSlide>
+                <StartButton />
+            </SwiperSlide>
+            <SwiperSlide className='videoIntro' style={{
+                width: '100vw',
+                height: '100vh'
+            }}>
+                <VideoIntro />
+            </SwiperSlide>
+            <SwiperSlide
+            onSlideChange
+            style={{
+                width: '100vw',
+                height: '100vh'
+            }}>
+                <Slide3 />
+            </SwiperSlide>
+        </Swiper>
+    );
+
 };

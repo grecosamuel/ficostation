@@ -1,5 +1,17 @@
 .videoIntro {
-    width: 100vw;
-    height: 100vh;
+    width: 100vw !important;
+    height: 100vh !important;
     position: fixed;
+}
+
+
+
+.swiper-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+
+.swiper-slide {
+    background-color: #000 !important;
 }
