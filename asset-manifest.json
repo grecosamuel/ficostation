@@ -1,16 +1,14 @@
 {
   "files": {
     "main.css": "/ficostation/static/css/main.073c9b0a.css",
-    "main.js": "/ficostation/static/js/main.eedbe649.js",
-    "static/js/787.f66bef52.chunk.js": "/ficostation/static/js/787.f66bef52.chunk.js",
+    "main.js": "/ficostation/static/js/main.a110762b.js",
     "static/media/logo.svg": "/ficostation/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/ficostation/index.html",
     "main.073c9b0a.css.map": "/ficostation/static/css/main.073c9b0a.css.map",
-    "main.eedbe649.js.map": "/ficostation/static/js/main.eedbe649.js.map",
-    "787.f66bef52.chunk.js.map": "/ficostation/static/js/787.f66bef52.chunk.js.map"
+    "main.a110762b.js.map": "/ficostation/static/js/main.a110762b.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.eedbe649.js"
+    "static/js/main.a110762b.js"
   ]
 }
