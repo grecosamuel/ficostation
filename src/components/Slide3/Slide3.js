@@ -12,7 +12,7 @@ export default function Slide3(){
             height: '100vh'
         }}>
             <Grid item xs={12}>
-                <img src='/targhetta.png' width='100%' height='50%' alt="Logo"/>
+                <img src='/ficostation/targhetta.png' width='100%' height='50%' alt="Logo"/>
             </Grid>
             <Grid item xs={12}>
                 
